@@ -1,6 +1,8 @@
 ---
 layout: misc
-title: About
+title: À propos
 ---
 
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation. For more information on how to install and use this theme, check out [the documentation]({{ site.github.url }}{% post_url 2016-10-10-getting-started %}).
+Le Tazon est un collectif d'artistes et de techniciens français. Il cherche à porter la vision de ces membres au plus grand nombres à travers la diffusion de leurs oeuvres et l'organisation de prestations artistiques.
+
+Le nom du collectif provient d'un verbe du patois berrichon, *tazonner*. On dit de quelqu'un qu'il tazonne quand celui-ci prends le temps, qu'il agît avec lenteur et sans se presser.
