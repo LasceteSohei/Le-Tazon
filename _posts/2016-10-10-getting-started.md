@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Lascete Soheï"
+title: "DE"
 author: "LasceteSoheï"
 categories: d
 tags: [artiste, présentation]
-image: Lascete.jpg
+image: nature-1.jpg
 ---
 
 # Millennial
