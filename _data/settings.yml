@@ -23,11 +23,11 @@ social:
 
 # Customize site text
 pagination:
-  next_page: 'Newer'
-  previous_page: 'Older'
+  next_page: 'Suivant'
+  previous_page: 'Précédent'
 
-sharing_button_prompt: 'Feel free to share!'
+sharing_button_prompt: 'Que du love si tu partages!'
 
-related_posts: 'You may also enjoy...'
+related_posts: 'Peut être apprécierez vous...'
 
-post_date_prefix: 'Written on'
+post_date_prefix: 'Ecrit le'
