@@ -1,7 +1,11 @@
-<header class="site-header">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<header class="site-header-light">
   <h3 class="site-title">
     <a href="{{ site.github.url }}/">{{ site.title }}</a>
   </h3>
+  <button class="mode-button" onclick="toggleDarkLight()" title="Toggle dark/light mode">🌛</button>
+
   <nav class="menu-list">
     {% for item in site.data.settings.menu %}
       <a href="{{ site.github.url }}/{{ item.folder }}/{{ item.file }}" class="menu-link">{{ item.name }}</a>
@@ -24,3 +28,15 @@
     </div>
   </div>
 </header>
+
+<script>
+  function toggleDarkLight() {
+    var $body = $("body");
+    var $header= $("header");
+    var $footer= $("footer");
+
+    $body.toggleClass("light dark")
+    $header.toggleClass("site-header-light site-header-dark")
+    $footer.toggleClass("footer-light footer-dark")
+  }
+  </script>
